@@ -45,8 +45,8 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Filmy_Rog')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), False)
-CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "ɴᴀᴍᴇ: <code>{file_name}</code> \n\nᴊᴏɪɴ ɴᴏᴡ: [ғɪʟᴍʏ ᴍᴇɴ](https://t.me/FILMY_MEN)</b>")
-BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", "ɴᴀᴍᴇ: <code>{file_name}</code> \n\nᴊᴏɪɴ ɴᴏᴡ: [ғɪʟᴍʏ ᴍᴇɴ](https://t.me/FILMY_MEN)</b>")
+CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "ɴᴀᴍᴇ: <code>{file_name}</code> \n\nᴊᴏɪɴ ɴᴏᴡ: [ᴅᴋ ғɪʟᴇs | ʀᴇʙᴏʀɴ](https://t.me/+mf-oa9-yrWg0M2M1)</b>")
+BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", "ɴᴀᴍᴇ: <code>{file_name}</code> \n\nᴊᴏɪɴ ɴᴏᴡ: [ᴅᴋ ғɪʟᴇs | ʀᴇʙᴏʀɴ](https://t.me/+mf-oa9-yrWg0M2M1)</b>")
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "🎬 ᴛɪᴛᴛʟᴇ :  {title} \n🌟 ʀᴀᴛɪɴɢ : {rating} \n🎭 ɢᴇɴʀᴇ : {genres} \n📆 ʀᴇʟᴇᴀsᴇ : {year} \n⏰ ᴅᴜʀᴀᴛɪᴏɴ : {runtime} \n🎙️ʟᴀɴɢᴜᴀɢᴇ : {languages} \n🔖 sʜᴏʀᴛ : {plot} \n★ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : @FILMY_MEN
                           ")
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
@@ -82,6 +82,6 @@ DOWNLOAD_TEXT_URL = "https://t.me/HOW_TO_DOWNLOADDS"
 
    # Custom Caption Under Button #
 CAPTION_BUTTON = "Join Now"
-CAPTION_BUTTON_URL = "https://t.me/FILMY_MEN"
+CAPTION_BUTTON_URL = "https://t.me/+mf-oa9-yrWg0M2M1"
 
    # Auto Delete For Bot Sending Files #
