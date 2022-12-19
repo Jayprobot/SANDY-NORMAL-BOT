@@ -11,18 +11,19 @@ def is_enabled(value, default):
         return default
 
 class script(object):
-    START_TXT = environ.get("START_TXT", '''<b>Hello {} 👋🏻 Im Sandman Bot I can share Movies and Series 😁.</b>
+    START_TXT = environ.get("START_TXT", '''<b>Hello {} 👋🏻 Im Bot I can share Movies and Series 😁.</b>
 
 <i>Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴛᴏ sᴇᴇ ᴛʜᴇ ᴍᴀɢɪᴄ ᴏʀ ʀᴇᴀᴅ ᴍᴏʀᴇ ғʀᴏᴍ ᴛʜᴇ ᴍᴇɴᴜ ʙᴇʟᴏᴡ</i>''')
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝙼𝚈 𝙷𝙴𝙻𝙿 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
-    ABOUT_TXT = """<b><i>🤖 ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/Filmy_Rog><b></b>sᴀɴᴅᴍᴀɴ⚡</a>\n
-👨‍💻 ᴍʏ ғᴀᴛʜᴇʀ : <a href=https://t.me/Syrus_143_hpy><b></b>亗 𝗧𝗛𝗘 𝗦𝗔𝗡𝗗𝗠𝗔𝗡⚡</a>\n
+    ABOUT_TXT = """<b><i>🤖 ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/+vRdXzcif8qM1Yjc1><b></b>sᴀɴᴅᴍᴀɴ⚡</a>\n
+😎 ᴍʏ ᴏᴡɴᴇʀ : <a href=https://t.me/PharmacistBoy1><b></b>♨️sᴘᴇᴄɪᴀʟɪsᴛ♨️™️</a>\n
+🫂 ʜᴇʟᴘᴇʀ : https://t.me/Syrus_143_hpy><b></b>亗 𝕊𝗔𝗡𝗗𝗬 |⚡|</a>\n
 📝 ʟᴀɴɢᴜᴀɢᴇ : ᴘʏʀᴏɢʀᴀᴍ\n
 📚 ꜰʀᴀᴍᴇᴡᴏʀᴋ : ᴘʏᴛʜᴏɴ 3\n
 📡 ʜᴏsᴛᴇᴅ ᴏɴ : ɪᴅᴋ\n
-📢 ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/Filmy_men><b></b>ғɪʟᴍʏ ᴍᴇɴ❤</a>\n
-🎬 ʀᴇǫ ɢʀᴏᴜᴘ :  <a href=https://t.me/Filmy_Rog><b></b>ғɪʟᴍʏ ʀᴏɢ🖤</>a\n
+📢 ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/+mf-oa9-yrWg0M2M1><b></b>ᴅᴋ ғɪʟᴇs | ʀᴇʙᴏʀɴ</a>\n
+🎬 ʀᴇǫ ɢʀᴏᴜᴘ :  <a href=https://t.me/+vRdXzcif8qM1Yjc1><b></b>ᴅᴋ ᴇɴᴛᴇʀᴛᴀɪɴᴍᴇɴᴛ's</>a\n
 🌟 ᴠᴇʀsɪᴏɴ : ᴠ 4.0\n</b></i>"""
     SOURCE_TXT = """<b>𝐂𝐫𝐞𝐚𝐭𝐞 𝐎𝐧𝐞 𝐋𝐢𝐤𝐞 𝐓𝐡𝐢𝐬:</b>
 » I will Create One Bot For You<b>
@@ -51,7 +52,7 @@ class script(object):
 3. Buttons should be properly parsed as markdown format
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/Syrus_143_hpy)</code>
+<code>[Button Text](buttonurl:https://t.me/PharmacistBoy1)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
